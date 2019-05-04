@@ -1,4 +1,4 @@
-Những câu lệnh cơ bản hay dùng trong Linux
+## Những câu lệnh cơ bản hay dùng trong Linux
 ### ls - List
 **ls** dùng để liệt kê các thư mục và file trong thư mục hiện hành.
 
