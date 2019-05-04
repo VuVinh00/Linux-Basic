@@ -1,7 +1,8 @@
 ## 1: Nhân Linux ( Kernel ) là gì?
 Kernel thực ra là một bộ quản lí tài nguyên, nó điều khiển toàn bộ phần cứng cũng như phần mềm của máy tính. Các tài nguyên gồm: các tiến trình (process), bộ nhớ ( memory ) và các thiết bị phần cứng ( hardwares) . Dễ hiểu thì Kernel là lớp phần mềm nằm giữa phần cứng và các chương trình ứng dụng chạy trên một máy tính. 
-           <img src="https://github.com/vinhvt2704/Images/blob/master/figure3.jpg">
-Kernel 
+
+         
+<img src="https://github.com/vinhvt2704/Images/blob/master/figure3.jpg">
 
 ## 2: Quá trình khởi động trong Linux 
 
