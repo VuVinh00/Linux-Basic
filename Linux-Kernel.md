@@ -21,6 +21,15 @@ Sau khi BIOS xác định được thiết bị lưu trữ thì BIOS sẽ đọc
 ### Bước 3: Boot loader 
 Linux có 2 boot loader phổ biến trên Linux là GRUB và ISOLINUX 
 Chương trình này có mục đích cho phép lựa chọn hệ điều hành có trên máy tính để khởi động, sau đó chúng sẽ nạp kernel của hệ điều hành đó vào bộ nhớ ( RAM ) và chuyển quyền điều khiển máy tính cho kernel này. 
+
+**GRUB là gì?**
+GRUB là một chương trình khởi động máy tính được phát triển bởi dự án GNU. GRUB cung cấp cho người dùng một lựa chọn cho phép khởi động một trong nhiều hệ điều hành được cài trên một máy tính hoặc cấu hình kernel cụ thể có sẵn trên các phân vùng của một hệ điều hành cụ thể.
+
+Tính năng của GRUB:
+
+   - Hỗ trợ nhiều hệ điều hành - bằng cách khởi động trực tiếp kernel hoặc bằng cách nạp chuỗi
+   - Hỗ trợ nhiều hệ thống tập tin: BSD FFS, DOS FAT16 và FAT32, Minix fs, Linux ext2f và ext3fs, ReiserFS, JSK, XFS, và VSTa fs.
+   - Cung cấp giao diện dòng lệnh linh hoạt lẫn giao diện thực đơn, đồng thời cũng hộ trợ tạp tin cấu hình
 ### Bước 4: Linux kernel được khởi nạp và chạy 
 Boot loader nạp một phiên bản dạng nén của Linux Kernel. Nó tự giải nén và tự cài đặt vào RAM, nó sẽ ở đó cho tới khi tắt máy 
 ### Bước 5: Các script trong initrd thực thi 
