@@ -1,6 +1,6 @@
 Trong Linux 
 
-Tìm ra loại lệnh ( type -t )
+## Tìm ra loại lệnh ( type -t )
 
 Nếu ta dùng type -t thì nó sẽ in ra một từ thuộc trong những từ dưới đây:
  - alias ( nghĩa là shell alias )
