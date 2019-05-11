@@ -1,4 +1,4 @@
-#Các loại Command line trên LINUX
+# Các loại Command line trên LINUX
 
 ## Tìm ra loại lệnh ( type -t )
 
