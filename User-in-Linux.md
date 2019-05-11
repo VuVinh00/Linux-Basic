@@ -18,3 +18,5 @@ Trong Linux chỉ phân biệt user làm hai loại:
 Thông tin về user được lưu trữ trong các files: /etc/passwd và /etc/shadow
 
 - /etc/passwd: File này chứa thông tin về user
+
+<img src="https://github.com/vinhvt2704/Images/blob/master/user.PNG">
