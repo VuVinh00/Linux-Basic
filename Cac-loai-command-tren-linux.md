@@ -50,4 +50,4 @@ Ví dụ:
 Kết quả sẽ là :
 
 ``` pwd is a shell builtin
-pwd is /bin/pwd
+pwd is /bin/pwd ```
