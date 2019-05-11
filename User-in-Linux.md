@@ -12,3 +12,9 @@ Trong Linux chỉ phân biệt user làm hai loại:
 
 - Supper user ( **root** ): Supper user có userID=0, đây là user có quyền cao nhất trong hệ thống, nó có thể làm được bất cứ thứ gì trên hệ thống của nó.
 - Normal user : Tất cả những user có userID khác 0 đều là normal user
+
+## Quản lí user:
+
+Thông tin về user được lưu trữ trong các files: /etc/passwd và /etc/shadow
+
+- /etc/passwd: File này chứa thông tin về user
