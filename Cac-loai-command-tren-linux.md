@@ -19,3 +19,4 @@ type -t date | file | Là các lệnh bên ngoài được lưu trữ tại: /bi
 type -t xrpm | function | Là một hàm do người dùng tự định nghĩa
 type -t if | keyword | Là câu lệnh đặc biệt dùng trong shell |
 
+## 
