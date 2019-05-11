@@ -38,3 +38,16 @@ Giờ thử dùng **type -p** với câu lệnh thuộc loại disk file là **d
 Ta sẽ có kết quả tương tự:
 
 ``bin/date``
+
+## Tìm kiếm tất cả thông tin về câu lệnh ( type- a )
+
+Type -a có thể được sử dụng để tìm kiếm câu lệnh là disk file, alias, keyword or function. Nó sẽ cho ta tất cả thông tin về câu lệnh như loại của câu lệnh, đường dẫn của câu lệnh,...
+
+Ví dụ:
+
+`` type -a pwd ``
+
+Kết quả sẽ là :
+
+`` pwd is a shell builtin
+pwd is /bin/pwd `` 
