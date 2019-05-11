@@ -9,3 +9,5 @@ Những loại Filesystem được hỗ trợ trên Linux:
 ## Cấu trúc Filesystem trên Linux
 
 Filesystem trên Linux lưu trữ những file quan trọng theo một tiêu chuẩn được gọi là FHS ( Filesystem Hierarchy Standard ). Trong FHS, tất cả file và thư mục đều nằm trong thư mục root **/**. Việc có một tiêu chuẩn như này giúp người dùng, quản trị viên, lập trình viên có thể chuyển đổi giữa các Distro một cách dễ dàng
+
+<img src="https://github.com/vinhvt2704/Images/blob/master/filesystem.png">
