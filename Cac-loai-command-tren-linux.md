@@ -19,4 +19,22 @@ type -t date | file | Là các lệnh bên ngoài được lưu trữ tại: /bi
 type -t xrpm | function | Là một hàm do người dùng tự định nghĩa
 type -t if | keyword | Là câu lệnh đặc biệt dùng trong shell |
 
-## 
+## Tìm đường dẫn của câu lệnh ( type -p )
+
+Type -p dùng để tìm ra đường dẫn của disk file. Nó sẽ không trả lại gì nếu câu lệnh đó không phải loại disk file
+
+Ví dụ:
+
+Ta dùng lệnh:
+
+`` type -p ls ``
+
+Sẽ không trả ra kết quả gì bởi ls thuộc type alias. Chúng ta có thể kiểm tra lại bằng lệnh **type -t ls**
+
+Giờ thử dùng **type -p** với câu lệnh thuộc loại disk file là **date**
+
+`` type -p date``
+
+Ta sẽ có kết quả tương tự:
+
+``bin/date``
